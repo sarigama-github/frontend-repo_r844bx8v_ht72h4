@@ -1,0 +1,13 @@
+appId: com.vet.manager
+directories:
+  buildResources: build
+files:
+  - dist/**
+  - electron/**
+mac:
+  target:
+    - dmg
+win:
+  target:
+    - nsis
+productName: Vet Manager
